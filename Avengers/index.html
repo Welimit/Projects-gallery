@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Assemble</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="bg.png" id="bg">
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <img src="road.png" id="road">
+    </section>
+    <div class="marvel">
+        <img src="marvel.png" id="marvel">
+    </div>
+
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+        })
+    </script>
+
+    <div class="cap">
+        <img src="Captain.png" id="captain">
+        <img src="shield.png" id="shield">
+    </div>
+    <div class="ironman">
+        <img src="ironbg.png" id="ironbg">
+        <img src="iron.png" alt="iron">
+    </div>
+    <div class="thor">
+        <img src="thorbg.png" id="thorbg">
+        <img src="thor.png" id="thor">
+    </div>
+</body>
+</html>

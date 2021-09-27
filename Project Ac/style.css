@@ -1,0 +1,1687 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: flex;
+    background: url(img/bg2.png) no-repeat;
+    height: 100vh;
+}
+.num{
+    font-size: 18px;
+    padding: 90px 70px;
+}
+.num i{
+    padding-right: 15px;
+}
+.navbar{
+    display: inline-flex;
+    position: absolute;
+    right: 100px;
+}
+.navbar li{
+    list-style: none;
+    padding: 25px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-family: 'ubuntu' , sans-serif;
+}
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+.bookbtn{
+    height: 70px;
+    width: 310px;
+    border-radius: 50px;
+    font-size: 30px;
+    display: flex;
+    position: absolute; 
+    margin-top: 250px;
+    background: #00FEEF;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    z-index: 3;
+}
+.bookbtn1{
+    height: 60px;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    background: #06DEFC;
+    align-items: center;
+    justify-content: center;
+    z-index: -3;
+    transition: 0.5s ;
+}
+.bookbtn1 a{
+    text-decoration: none;
+    color: white;
+}
+.bookbtn1:hover{
+    background: white;
+}
+.bookbtn1 a:hover{
+    color: #06DEFC;
+}
+
+/*Expericences Styling strats here*/
+
+.div{
+    padding-top: 80px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sg img{
+    width: 255px;
+    height: 320px;
+    position: absolute;
+    opacity: 20%;
+}
+.exp img{
+    width: 358px;
+    height: 325px;
+    position: absolute;
+    opacity: 20%;
+}
+.emer img{
+    width: 286px;
+    height: 255px;
+    position: absolute;
+    opacity: 20%;
+}
+.div span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.div p{
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 140px;
+}
+.sg{
+    padding-left: 100px;
+}
+.sg span{
+    padding-bottom: 50px;
+}
+
+.exp{
+    padding-left: 100px;
+}
+.emer{
+    padding-left: 100px;
+}
+
+/*Services and Experince styling strats here*/
+
+.bg2{
+    display: flex;
+    background: url(img/bg1.png) no-repeat center;
+    height: 100vh;
+    opacity: 90%;
+}
+.head{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    opacity: 90%;
+    text-align: center;
+    padding-top: 30px;
+    left: 30%;
+}
+.container{
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    margin: 0 20px;
+}
+.lst{
+    padding-left: 120px;
+    padding-right: 250px;
+}
+.lst li{
+    font-size: 25px;
+    color: white;
+    list-style: square;
+    padding-bottom: 10px;
+}
+.box{
+    display: inline-flex;
+    padding-top: 120px;
+}
+.box1 { 
+    width:  200px;
+    height: 350px;
+    border-radius: 10px;
+    color: white;
+    background: #A150F5;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    
+}
+.pro i{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pro span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.pro {
+    font-size: 25px;
+}
+.happy i{
+    font-size: 45px;
+    padding-top: 50px;
+}
+.happy span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.happy{
+    font-size: 25px;
+}
+.box2{
+    position: relative;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.enqurie{
+    font-size: 25px;
+    padding-bottom: 110px;
+}
+.enquire span{
+    font-weight: bold;
+}
+.circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 23px;
+    background: #F4BEEC;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+.circle span{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+
+/*offering styling strats here*/
+
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    color: #A150F5;
+}
+.fix li{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2C5C82;
+}
+.fix{
+    padding-bottom: 50px;
+}
+.content{
+    display: inline-flex;
+    padding-bottom: 100px;
+}
+.cs {
+    width: 280px;
+    height: 410px;
+    border-radius: 10px;
+    background: #A150F5;
+    margin-left: 130px;
+    border: 1px solid transparent; 
+    box-shadow: 5px 5px 20px;
+}
+.mr {
+    width: 280px;
+    height: 410px;
+    margin-left: 130px;
+    border-radius: 10px;
+    background: #A150F5;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px;
+}
+.gas {
+    width: 280px;
+    height: 410px;
+    margin-left: 130px;
+    border-radius: 10px;
+    background: #A150F5;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px;
+}
+.content img{
+    width: 278px;
+    height: 170px;
+    border-radius: 4%;
+}
+.content p{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;   
+}
+
+/*pacakge styling here*/
+
+.tools{
+    background: url(img/bg3.png) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.plans{
+    font-size: 55px;
+    color: #A150F5;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 270px;
+    padding-bottom: 100px;
+}
+.pack{
+    display: inline-flex;
+    padding-bottom: 100px;
+}
+.gs{
+    width: 300px;
+    height: 410px;
+    border-radius: 10px;
+    background: #A150F5;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px;
+    margin-left: 100px;
+}
+.fit{
+    width: 300px;
+    height: 410px;
+    border-radius: 10px;
+    background: #A150F5;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px;
+    margin-left: 100px;
+}
+.ins{
+    width: 300px;
+    height: 410px;
+    border-radius: 10px;
+    background: #A150F5;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 10px;
+    margin-left: 100px;
+}
+.pack .cost{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.pack p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.pack .book{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 80px;
+    cursor: pointer;
+}
+.pack .book a{
+    color: white;
+}
+
+/*electericl=al styling starts here*/
+
+.other{
+    font-size: 45px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.daba{
+    display: inline-flex;
+    padding-bottom: 120px;
+}
+.daba img{
+    width: 100px;
+    height: 190px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+.daba p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.daba .now{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    color: #a150f9;
+    cursor: pointer;
+}
+.fridge{
+    width: 230px;
+    height: 350px;
+    background: white;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px #A150F5;
+}
+
+.was{
+    width: 230px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px #A150F5;
+}
+.mix{
+    width: 230px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px #A150F5;
+}
+
+.boox{
+    display: inline-flex;
+    padding-bottom: 100px;
+}
+.boox img{
+    width: 100px;
+    height: 190px;
+    margin-left: 65px;
+    padding-bottom: 40px;
+}
+.boox p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.boox .now{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    color: #A150F9;
+    cursor: pointer;
+}
+.now a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.gri{
+    width: 230px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px #A150F5;
+}
+
+.elec{
+    width: 230px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px #A150F5;
+}
+.net{
+    width: 230px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 20px #A150F5;
+}
+
+/*Conatct box styling strats here*/
+
+#ref{
+    height: 130vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#ref p{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.divid{
+    display: inline-flex;
+}
+.single{
+    margin-top: 30px;
+    text-align: justify;
+}
+.single input{
+    background: white;
+    border:  1px solid lightgray;
+}
+#name{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#phone{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#date{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+}
+.double{
+    margin: 30px;
+}
+.double input{
+    background: white;
+    border:  1px solid lightgray;
+}
+
+#mail{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+select{
+    width: 270px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+}
+.selectlist{
+    border-radius: 4px;
+    background-color: white;
+    text-align: justify ;
+    opacity: 1;
+}
+.selectlist option{
+    font-size: 20px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.selectlist.active{
+    opacity: 1;
+}
+.listiteams{
+    font-size: 1.1rem;
+}
+#time{
+    width: 270px;
+    height: 50px;
+}
+.third input{
+    background: white;
+    border:  1px solid lightgray;
+}
+#add{
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border:  1px solid lightgray;
+    resize: vertical;
+}
+#msg{
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border:  1px solid lightgray;
+    resize: vertical;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border:  transparent;
+    background: #A150F5;
+    color: white;
+    font-size: 20px;
+    top: 20%;
+    margin-bottom: 30px;
+}
+button:hover{
+    background: white;
+    color: blueviolet;
+}
+#status{
+    width: 90%;
+    height: 40px;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#status.sucess{
+    background-color: rgb(211 ,250 ,153);
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: rgb(250 ,129 ,92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+/* Testimonilas styling strats here*/
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #A150F5;
+    min-height: 100vh;
+    position: relative;
+}
+.test::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.test::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgb(255, 255, 255, 0.05);
+    margin: 20px;
+    box-sizing: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.content9{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container .card:hover .content9{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.pic1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: 10px solid rgba(0, 0, 0, .25);
+}
+.pic1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content1 h3{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    margin: 30px 0 10px;
+    line-height: 1.1em;
+}
+.content1 span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sci{
+    position: absolute;
+    top: 75%;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 1;
+    transition-delay: calc(0.1s * var(--i));
+}
+.container .card:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.sci li a{
+    color: white;
+    font-size: 24px;
+}
+/*  footer stylng strats here*/
+footer .ceo{
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.ceo {
+    font-size: 20px;
+}
+.ceo a{
+    text-decoration: none;
+}
+footer .insta{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.insta li{
+    list-style: none;
+    font-size: 23px;
+    padding-right: 15px;
+}
+
+/* Responsive Styling strats here*/
+
+@media(max-width: 1231px ){
+    .sg{
+        padding-left: 50px;
+    }
+    .exp{
+        padding-left: 50px;
+    }
+    .emer{
+        padding-left: 50px;
+    }
+    .box{
+        margin-left: 650px;
+    }
+    .lst{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        left: 50px;
+    }
+    .cs{
+        margin-left: 70px;
+    }
+    .gs{
+        margin-left: 60px;
+    }
+}
+@media(max-width: 1110px){
+    .main{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sg{
+        padding-left: 1px;
+    }
+    .emer{
+        padding-right: 20px;
+    }
+    .lst{
+        left: 10px;
+    }
+    .box{
+        margin-left: 550px;
+    }
+    .cs{
+        margin-left: 80px;
+    }
+    .mr{
+        margin-left: 50px;
+    }
+    .gas{
+        margin-left: 50px;
+    }
+    .gs{
+        margin-left: 60px;
+    }
+    .fit{
+        margin-left: 40px;
+    }
+    .ins{
+        margin-left: 40px;
+    }
+    .fridge{
+        margin-left: 50px;
+    }
+    .gri{
+        margin-left: 50px;
+    }
+    footer .insta{
+        padding-left: 480px;
+    }
+}
+@media(max-width: 991px){
+    .num{
+        padding: 120px 50px;
+    }
+    .main{
+        position: absolute;
+        top: 300px;
+        left: 100px;
+    }
+    .sg{
+        padding-left: 50px;
+    }
+    .sg img{
+        width: 210px;
+        height: 280px;
+    }
+    .exp img{
+        width: 250px;
+        height: 280px;
+    }
+    .exp{
+        padding-left: 50px;
+    }
+    .emer img{
+        width: 230px;
+        height: 280px;
+    }
+    .emer{
+        padding-right: 50px;
+    }
+    .head{
+        left: 25%;
+    }
+    .lst{
+        padding-left: 80px;
+    }
+    .lst li{
+        font-size: 20px;
+    }
+    .box{
+        margin-left: 450px;
+    }
+    .cs {
+        width: 245px;
+        height: 410px;
+    }
+    .mr{
+        width: 245px;
+        height: 410px;
+    }
+    .gas{
+        width: 245px;
+        height: 410px;
+    }
+    .content img{
+        width: 243px;
+        height: 170px;
+    }
+    .gs{
+        width: 260px;
+        height: 410px;
+    }
+    .fit{
+        width: 260px;
+        height: 410px;
+    }
+    .ins{
+        width: 260px;
+        height: 410px;
+    }
+    .pack .book{
+        padding-left: 60px;
+    }
+    .daba img{
+        width: 100px;
+        height: 190px;
+    }
+    .fridge{
+        width: 200px;
+        height: 350px; 
+        margin-left: 110px;   
+    }
+    .was{
+        width: 200px;
+        height: 350px;  
+        margin-left: 90px;  
+    }
+    .mix{
+        width: 200px;
+        height: 350px; 
+        margin-left: 90px;     
+    }
+    .gri{
+        width: 200px;
+        height: 350px;
+        margin-left: 110px;      
+    }
+    .elec{
+        width: 200px;
+        height: 350px;
+        margin-left: 90px;    
+    }
+    .net{
+        width: 200px;
+        height: 350px; 
+        margin-left: 90px;   
+    }
+    footer .insta{
+        padding-left: 440px;
+    }
+}
+@media(max-width: 821px){
+    .main{
+        font-size: 35px;
+    }
+    .div span{
+        font-size: 23px;   
+    }
+    .sg img{
+        width: 190px;
+        height: 250px;
+    }
+    .exp img{
+        width: 210px;
+        height: 250px;
+    }
+    .emer img{
+        width: 190px;
+        height: 250px;
+    }
+    .head{
+        font-size: 35px;
+    }
+    .lst {
+        padding-left: 50px;
+    }
+    .box1 { 
+        width:  180px;
+        height: 320px;
+    }
+    .pro i{
+        font-size: 25px;
+    }
+    .happy i{
+        font-size: 25px;
+    }
+    .box{
+        margin-left: 400px;
+    }
+    .box2{
+        padding-left: 50px;
+    }
+    .enqurie{
+        font-size: 20px;
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
+        padding-top: 40px;
+    }
+    .fix li{
+        font-size: 20px;
+    }
+    .cs {
+        width: 210px;
+        height: 380px;
+        margin-left: 40px;
+    }
+    .mr{
+        width: 210px;
+        height: 380px;
+    }
+    .gas{
+        width: 210px;
+        height: 380px;
+    }
+    .content img{
+        width: 208px;
+        height: 150px;
+    }
+    .content p{
+        font-size: 30px;
+    }
+    .gs{
+        width: 200px;
+        height: 350px;
+        margin-left: 80px;
+    }
+    .fit{
+        width: 200px;
+        height: 350px;
+    }
+    .ins{
+        width: 200px;
+        height: 350px;
+    }
+    .pack .cost{
+        font-size: 30px;
+    }
+    .pack p{
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+    .other{
+        font-size: 35px;
+    }
+    .daba img{
+        width: 100px;
+        height: 190px;
+    }
+    .fridge{
+        width: 200px;
+        height: 350px; 
+        margin-left: 70px;   
+    }
+    .was{
+        width: 200px;
+        height: 350px;  
+        margin-left: 50px;  
+    }
+    .mix{
+        width: 200px;
+        height: 350px; 
+        margin-left: 50px;     
+    }
+    .gri{
+        width: 200px;
+        height: 350px;
+        margin-left: 70px;      
+    }
+    .elec{
+        width: 200px;
+        height: 350px;
+        margin-left: 50px;    
+    }
+    .net{
+        width: 200px;
+        height: 350px; 
+        margin-left: 50px;   
+    }
+    #ref{
+        height: 80vh;
+    }
+    #ref p{
+        font-size: 30px;
+    }
+    footer .insta{
+        padding-left: 350px;
+    }
+}
+@media(max-width: 700px){
+    .home{
+        height: 70vh;
+    }
+    .main{
+        font-size: 30px;
+    }
+    .bookbtn{
+        height: 50px;
+        width: 250px;
+    }
+    .bookbtn1{
+        height: 40px;
+        width: 240px;
+    }
+    .bookbtn1 a{
+        font-size: 20px;
+    }
+    .sg img{
+        width: 160px;
+        height: 210px;
+    }
+    .exp img{
+        width: 190px;
+        height: 220px;
+    }
+    .emer img{
+        width: 160px;
+        height: 210px;
+    }
+    .div p{
+        font-size: 17px;
+    }
+    .bg2{
+        height: 70vh;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .lst li{
+        font-size: 18px;
+    }
+    .box1 { 
+        width:  150px;
+        height: 280px;
+    }
+    .pro{
+        font-size: 25px;
+    }
+    .pro i{
+        font-size: 20px;
+    }
+    .happy i{
+        font-size: 20px;
+    }
+    .box{
+        margin-left: 350px;
+    }
+    .box2{
+        padding-left: 30px;
+    }
+    .enqurie{
+        font-size: 20px;
+    }
+    .circle{
+        font-size: 20px;
+    }
+    .cs {
+        width: 190px;
+        height: 310px;
+        margin-left: 45px;
+    }
+    .mr{
+        width: 190px;
+        height: 310px;
+        margin-left: 20px;
+    }
+    .gas{
+        width: 190px;
+        height: 310px;
+        margin-left: 20px;
+    }
+    .content img{
+        width: 188px;
+        height: 140px;
+    }
+    .content p{
+        font-size: 27px;
+    }
+    .tools{
+        height: 70vh;
+    }
+    .plans{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+    .gs{
+        width: 190px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .fit{
+        width: 190px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .ins{
+        width: 190px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .pack .cost{
+        font-size: 30px;
+    }
+    .pack p{
+        font-size: 25px;
+        padding-bottom: 80px;
+    }
+    .pack .book{
+        font-size: 20px;
+        padding-left: 45px;
+    }
+    .daba img{
+        width: 80px;
+        height: 150px;
+    }
+    .boox img{
+        width: 80px;
+        height: 150px;
+    }
+    .fridge{
+        width: 180px;
+        height: 300px; 
+        margin-left: 30px;   
+    }
+    .was{
+        width: 180px;
+        height: 300px;  
+        margin-left: 50px;  
+    }
+    .mix{
+        width: 180px;
+        height: 300px; 
+        margin-left: 50px;     
+    }
+    .gri{
+        width: 180px;
+        height: 300px;
+        margin-left: 30px;      
+    }
+    .elec{
+        width: 180px;
+        height: 300px;
+        margin-left: 50px;    
+    }
+    .net{
+        width: 180px;
+        height: 300px; 
+        margin-left: 50px;   
+    }
+    footer .insta{
+        padding-left: 300px;
+    }
+}
+@media(max-width: 555px){
+    .main{
+        font-size: 28px;
+    }
+    .div{
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        font-size: 23px;
+    }
+    .bg2{
+        height: 80vh;
+    }
+    .box2{
+        position: absolute;
+        display: inline-flex;
+        top: 500px;
+        left: 150px;
+    }
+    .enqurie{
+        color: white;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .cs{
+        margin-left: 180px;
+        margin-bottom: 20px;
+    }
+    .mr{
+        margin-left: 180px;
+        margin-bottom: 20px;
+    }
+    .gas{
+        margin-left: 180px;
+    }
+    .tools{
+        height: 130vh;
+    }
+    .plans{
+        padding-bottom: 30px;
+    }
+    .pack{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .gs{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .fit{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .ins{
+        margin-left: 180px;
+    }
+    .daba{
+        display: flex;
+        flex-direction: column;
+    }
+    .fridge{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .was{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .mix{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .boox{
+        display: flex;
+        flex-direction: column;
+    }
+    .gri{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .elec{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    .net{
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    #ref{
+        height: 130vh;
+    }
+    #name{
+        width: 230px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    #phone{
+        width: 230px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    #date{
+        width: 230px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .double{
+        margin: 30px;
+    }
+    #mail{
+        width: 230px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    #time{
+        width: 230px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .serv{
+        width: 230px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        position: relative;
+    }
+    .selectlist.active{
+        opacity: 1;
+    }
+    .third input{
+        background: white;
+        border:  1px solid lightgray;
+    }
+    #add{
+        width: 500px;
+        height: 70px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        border:  1px solid lightgray;
+        resize: vertical;
+    }
+    #msg{
+        width: 500px;
+        height: 70px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        border:  1px solid lightgray;
+        resize: vertical;
+    }
+    #submit{
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border:  transparent;
+        background: #A150F5;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 20%;   
+    }
+    footer .insta{
+        padding-left: 220px;
+    }
+    
+}
+@media(max-width: 399px){
+    .main{
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .bookbtn{
+        height: 40px;
+        width: 190px;
+    }
+    .bookbtn1{
+        height: 30px;
+        width: 180px;
+    }
+    .bookbtn1 a{
+        font-size: 15px;
+    }
+    .sg{
+        padding-left: 20px;
+    }
+    .exp{
+        padding-left: 20px;
+    }
+    .emer{
+        padding-left: 25px;
+    }
+    .head{
+        font-size: 15px;
+    }
+    .lst{
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .lst li{
+        font-size: 12px;
+    }
+    .other{
+        padding-top: 200px;
+    }
+    .box{
+        margin-left: 190px;
+    }
+    .box2{
+        left: 30px;
+    }
+    .cs{
+        margin-left: 90px;
+    }
+    .mr{
+        margin-left: 90px;
+    }
+    .gas{
+        margin-left: 90px;
+    }
+    .gs{
+        margin-left: 90px;
+    }
+    .fit{
+        margin-left: 90px;
+    }
+    .ins{
+        margin-left: 90px;
+    }
+    .service{
+        margin-top: 100px;
+    }
+    .fridge{
+        margin-top: 60px;
+        margin-left: 90px;
+    }
+    .was{
+        margin-left: 90px;
+    }
+    .mix{
+        margin-left: 90px;
+    }
+    .gri{
+        margin-left: 90px;
+    }
+    .elec{
+        margin-left: 90px;
+    }
+    .net{
+        margin-left: 90px;
+    }
+    #ref{
+        min-height: 100vh;
+    }
+    .divid{
+        display: flex;
+        flex-direction: column;
+    }
+    .single{
+        padding-left: 60px;
+    }
+    .double{
+        padding-right: 40px;
+    }
+    .serv{
+        margin-left: 30px;
+    }
+    #add{
+        width: 340px;
+    }
+    #msg{
+        width: 340px;
+    }
+    footer .insta{
+        padding-left: 120px;
+    }
+}
+@media(max-width: 360px){
+    .main{
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .bookbtn{
+        height: 40px;
+        width: 190px;
+    }
+    .bookbtn1{
+        height: 30px;
+        width: 180px;
+    }
+    .bookbtn1 a{
+        font-size: 15px;
+    }
+    .sg{
+        padding-left: 20px;
+    }
+    .exp{
+        padding-left: 20px;
+    }
+    .emer{
+        padding-left: 25px;
+    }
+    .head{
+        font-size: 15px;
+    }
+    .lst{
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .lst li{
+        font-size: 12px;
+    }
+    .other{
+        padding-top: 200px;
+    }
+    .box{
+        margin-left: 190px;
+    }
+    .box2{
+        left: 30px;
+    }
+    .cs{
+        margin-left: 90px;
+    }
+    .mr{
+        margin-left: 90px;
+    }
+    .gas{
+        margin-left: 90px;
+    }
+    .gs{
+        margin-left: 90px;
+    }
+    .fit{
+        margin-left: 90px;
+    }
+    .ins{
+        margin-left: 90px;
+    }
+    .service{
+        margin-top: 400px;
+    }
+    .fridge{
+        margin-top: 70px;
+        margin-left: 90px;
+    }
+    .was{
+        margin-left: 90px;
+    }
+    .mix{
+        margin-left: 90px;
+    }
+    .gri{
+        margin-left: 90px;
+    }
+    .elec{
+        margin-left: 90px;
+    }
+    .net{
+        margin-left: 90px;
+    }
+    #ref{
+        height: 250vh;
+    }
+    .divid{
+        display: flex;
+        flex-direction: column;
+    }
+    .single{
+        padding-left: 60px;
+    }
+    .double{
+        padding-right: 15px;
+    }
+    .serv{
+        margin-left: 25px;
+    }
+    select{
+        margin-left: 25px;
+        width: 230px;
+        height: 40px;
+    }
+    #add{
+        width: 340px;
+    }
+    #msg{
+        width: 340px;
+    }
+    footer .insta{
+        padding-left: 120px;
+    }
+}

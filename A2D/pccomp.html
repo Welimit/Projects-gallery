@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pc-Components</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fa/all.css">
+</head>
+<body>
+
+<!-- Go to top Section starts here-->
+
+<a href="#" class="gotop"><i class="fas fa-arrow-up"></i></a>
+
+<!--Nav Section strats here-->
+
+    <nav class="notch">
+        <div class="home"><a href="index.html">Home</a></div>
+        <div class="about"><a href="about.html">about</a></div>
+    </nav>
+    <div class="max3">
+        <div class="notes">
+        <div class="font7">Notes</div>
+        <ul>
+            <li>Contact Only for Confirm builds</li>
+            <li>price not given in the components because of price variations</li>
+            <li>After choose compnents make a call to our team</li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="element">
+        <div class="box5">
+            <div class="font5"><a href="#choose">ITX</a></div>
+            <img src="img/itx.png" class="itx">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="box6">
+            <div class="font6"><a href="#choose">ATX</a></div>
+            <img src="img/atx.png" class="atx">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="box7">
+            <div class="font8"><a href="#rigref">Minning Rig</a></div>
+            <img src="img/minning.png" class="rigg">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <!--Selctlist section strats here-->
+<div class="max">
+    <div id="choose">
+        <div class="selectlist">
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="mail" placeholder="EmailID" id="mail" required>
+            <input type="text" placeholder="Place , District" id="place" required>
+            <select name="Itx" id="build" required>
+                <option value="ItX or Atx" id="deselect">ITX or ATX(Choose Bellow)</option>
+                <option value="ItX" >ITX Build</option>
+                <option value="Atx">ATX Build</option>
+            </select>
+            <select name="Max-budget" id="budget" required>
+                <option value="Max-budget" id="deselect" > Select max-budget (Choose Bellow)</option>
+                <option value="40k-50k">40k - 50k</option>
+                <option value="50k-70k">50k - 70k</option>
+                <option value="70k-90k">70k - 90k</option>
+                <option value="1lakhs">1 Lakhs above</option>
+            </select>
+            <select name="Uses" id="use" required>
+                <option value="uses" id="deselect">Select your uses in Pc (Choose Bellow)</option>
+                <option value="Normal" id="Normal">Normal Use</option>
+                <option value="Gaming" id="game">Gaming & streaming</option>
+                <option value="editing" id="editing">Editing , 3D designing</option>
+                <option value="productivity" id="product">productivity</option>
+            </select>
+            <button type="submit" value="submit" id="submit">submit</button>
+        </div>
+    </div>
+</div>
+
+<!--Minning rig slectlist sectio strats here-->
+
+<div class="rig-container" id="rigref">
+    <div class="box8">
+        <div class="font9"><a href="#choose2">Minning Rig</a></div>
+        <img src="img/rigg.png" class="rig-select">
+    </div>
+</div>
+
+<div class="max2">
+    <div id="choose2">
+        <div class="selectlist2">
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="mail" placeholder="EmailID" id="mail" required>
+            <input type="text" placeholder="Place , District" id="place" required>
+            <select name="Itx" id="build" required>
+                <option value="Budget" id="deselect">Budget(Choose Bellow)</option>
+                <option value="1" >70k - 1L</option>
+                <option value="2">1L - 2L</option>
+                <option value="3">2L - 3L</option>
+                <option value="4">Above 3L</option>
+            </select>
+            <input type="text" placeholder="Which GPU do you Prefer" id="gpu" required>
+            <button type="submit" id="rig-submit">Submit</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

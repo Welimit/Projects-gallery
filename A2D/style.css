@@ -1,0 +1,971 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 1980px;
+    height: 1080px;
+    background: #55C111;
+}
+/*Nav Styling Strats here*/
+
+.nav{
+    position: relative;
+    display: flex;
+    z-index: 1000;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+.about1{
+    font-size: 20px;
+    padding: 7px 30px;
+    border: 3px solid #55C111;
+    border-radius: 10px;
+}
+.about1 a{
+    text-decoration: none;
+    color: white;
+}
+.con{
+    font-size: 20px;
+    padding: 7px 30px;
+    border: 3px solid #55C111;
+    border-radius: 10px;
+}
+.con a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    position: relative;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    height: 100px;
+    background: #30333A;
+    box-shadow: 10px 10px 50px rgba(0,0,0,2);
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 10vw;
+    line-height: 0.6em;
+    z-index: 1000;
+    font-weight: 800;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+h2{
+    position: absolute;
+    font-size: 65px;
+    z-index: 1000;
+    color: white;
+    left: 110px;
+    top: 210px;
+    margin-top: 50px;
+}
+.logo{
+    position: absolute;
+    z-index: 1000;
+    width: 250px;
+    height: 240px;
+    left: 110px;
+    top: 330px;
+}
+
+.pc-section{
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.box1{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,2);
+}
+.text9{
+    font-size: 100px;
+    font-family: 'popins', sans-serif;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    text-transform: uppercase;
+}
+.font1{
+    font-size: 50px;
+    color: white;
+    font-family: 'popins', sans-serif;
+    position:  absolute;
+    top: 50%;
+    left: 10%;
+}
+#btn0{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 60px;
+    top: 70%;
+    left: -35%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #55C111;
+    border: none;
+}
+#btn0 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.pclogo{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 55%;
+}
+
+
+/******************* Mining****************
+            rig styling strats here*********/
+
+.rig-section{
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    margin-left: 100px;
+}
+.box2{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,2);
+    margin-top: 200px;
+}
+.rig{
+    font-size: 100px;
+    font-family: 'popins', sans-serif;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    text-transform: uppercase;
+}
+.font2{
+    font-size: 45px;
+    color: white;
+    font-family: 'popins', sans-serif;
+    position:  absolute;
+    top: 60%;
+    left: 10%;
+}
+#btn{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 60px;
+    top: 70%;
+    left: -50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #55C111;
+    border: none;
+}
+#btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.riglogo{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 52%;
+    top: 43%;
+}
+
+/***************SERVICE styling strats here***************************/
+
+.column{
+    position: relative;
+    display: inline-flex;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    width: 1300px;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.box3{
+    display: flex;
+    width: 35%;
+    height: 700px;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,2);
+    position: relative;
+    right: 50px;
+}
+.font3{
+    position: absolute;
+    display: flex;
+    font-size: 40px;
+    top: 58%;
+    left: 16%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.doclogo{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    left: -15%;
+    top: 10%;
+}
+#btn1{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 60px;
+    top: 80%;
+    left: 35%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #55C111;
+    border: none;
+}
+#btn1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.box4{
+    display: flex;
+    width: 35%;
+    height: 700px;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,2);
+    position: relative;
+    left: 50px;
+}
+.font4{
+    position: absolute;
+    font-size: 50px;
+    top: 10%;
+    left: 26%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mail, .number, .youtube{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 30%;
+    padding-bottom: 20px;
+}
+.mail span, .number span, .youtube span{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.mail a, .number a, .youtube a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.mail i, .number i, .youtube i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+#btn2{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 60px;
+    top: 80%;
+    left: -33%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #55C111;
+    border: none;
+}
+#btn2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+/*** GOTOtop BAr styling  here **/
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    bottom: 40px;
+    right: 10px;
+    z-index: 1000;
+}
+.gotop i{
+    font-size: 20px;
+    text-decoration: none;
+    color: seagreen;
+    padding: 15px 15px;
+}
+/*******************PC-Comp*************************************
+********************Styling ************************************
+***********************starts here*********************************/
+
+/*Nav Styling Strats here*/
+
+.notch{
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.home{
+    font-size: 20px;
+    padding: 7px 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 80px;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    font-size: 20px;
+    padding: 7px 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Notes Styling Strats here*/
+
+.notes{
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 350px;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.6);
+    left: 7%;
+    margin-top: 50px;
+}
+.font7{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    top: 30px;
+    left: 45%;
+}
+.notes ul li{
+    position: relative;
+    top: 38%;
+    left: 7%;
+}
+.notes li{
+    font-size: 40px;
+    color: white;
+}
+
+/*        ITX or Atx    */
+
+.element{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+.box5{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: black;
+    left: 3%;
+}
+.box5 i{
+    position: relative;
+    color: #55C111;
+    font-size: 50px;
+    top: 30%;
+    left: 43%;
+}
+.font5{
+    position: absolute;
+    font-size: 75px;
+    font-weight: bold;
+    top: 63%;
+    left: 37%;
+    cursor: pointer;
+}
+.font5 a{
+    text-decoration: none;
+    color: white;
+}
+.itx{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 20px;
+    left: -20%;
+}
+.box6{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: black;
+    left: 5%;
+}
+.box6 i{
+    position: relative;
+    color: #55C111;
+    font-size: 50px;
+    top: 28%;
+    left: 46%;
+}
+.font6{
+    position: absolute;
+    font-size: 75px;
+    font-weight: bold;
+    top: 63%;
+    left: 36%;
+    cursor: pointer;
+}
+.font6 a{
+    text-decoration: none;
+    color: white;
+}
+.atx{
+    position: relative;
+    top: -20px;
+    width: 550px;
+    height: 360px;
+    left: -45px;
+}
+.box7{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: black;
+    left: 7%;
+}
+.box7 i{
+    position: relative;
+    color: #55C111;
+    font-size: 50px;
+    top: 49%;
+    left: -110px;
+}
+.font8{
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    top: 65%;
+    left: 17%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.font8 a{
+    text-decoration: none;
+    color: white;
+}
+.rigg{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    width: 300px;
+    height: 280px;
+}
+/*Choose Components Styling strats here*/
+
+#choose{
+    position: relative;
+    width: 1200px;
+    height: 85%;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.6);
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    left: 5%;
+}
+.selectlist{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+}
+#name{
+    width: 400px;
+    height: 50px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    background: #171717;
+    color: white;
+}
+#mail{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    background: #171717;
+    color: white;
+}
+#place{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    background: #171717;
+    color: white;
+}
+#build{
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #171717;
+    color: white;
+    font-size: 20px;
+}
+#deselect{
+    color: red;
+}
+#budget{
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #171717;
+    color: white;
+    font-size: 20px;
+}
+#use{
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #171717;
+    color: white;
+    font-size: 20px;
+}
+#submit{
+    position: relative;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    left: 100px;
+    background: #55C111;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Miinig rig selctlist styling strats here*/
+
+.rig-container{
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 90vh;
+    margin-top: 100px;
+}
+.box8{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    background: black;
+    left: 10%;
+}
+.font9{
+    position: relative;
+    font-size: 70px;
+    font-weight: bold;
+    top: 40%;
+    left: 550px;
+    text-transform: uppercase;
+}
+.font9 a{
+    text-decoration: none;
+    color: white;
+}
+.rig-select{
+    position: relative;
+    top: -50px;
+    width: 450px;
+    height: 400px;
+}
+#choose2{
+    position: relative;
+    width: 1200px;
+    height: 85%;
+    background: black;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.6);
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    left: 5%;
+    margin-bottom: 100px;
+}
+.selectlist2{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+}
+#gpu{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    background: #171717;
+    color: white;
+}
+#rig-submit{
+    position: relative;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    left: 100px;
+    background: #55C111;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#rig-submit a{
+    text-decoration: none;
+    color: black;
+}
+
+/*********About styling strats here******/
+
+#abt{
+    width: 100%;
+    height: 100vh;
+}
+.topic{
+    position: absolute;
+    z-index: 1000;
+    font-size: 20px;
+    padding: 7px 30px;
+    border: 3px solid #005b72;
+    border-radius: 10px;
+    top: 40px;
+    left: 10%;
+}
+.topic a{
+    text-decoration: none;
+    color: #003a49;
+}
+.topic2{
+    position: absolute;
+    z-index: 1000;
+    font-size: 20px;
+    padding: 7px 30px;
+    border: 3px solid #005b72;
+    margin-right: 80px;
+    border-radius: 10px;
+    top: 40px;
+    right: 10%;
+}
+.topic2 a{
+    text-decoration: none;
+    color: #003a49;
+}
+#abt-bg{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    object-fit: cover;
+    z-index: 500;
+}
+.text6{
+    position: absolute;
+    z-index: 1000;
+    font-weight: bold;
+    font-size: 130px;
+    color: #003441;
+    top: 35%;
+    left: 110px;
+}
+.text7{
+    position: absolute;
+    z-index: 1000;
+    font-weight: bold;
+    font-size: 100px;
+    color: #003441;
+    top: 60%;
+    left: 110px;
+}
+.text8{
+    position: absolute;
+    display: flex;
+    font-size: 60px;
+    color: #003441;
+    top: 77%;
+    left: 115px;
+    z-index: 1000;
+    letter-spacing: 1px;
+}
+#nobg{
+    position: absolute;
+    display: inline-flex;
+    background: none;
+    z-index: 1000;
+    top: 90%;
+    left: 100px;
+}
+#nobg li{
+    font-size: 30px;
+    padding-left: 30px;
+    list-style: none;
+}
+#nobg  i{
+    color: #005b72;
+}
+.youtuber{
+    position: absolute;
+    display: flex;
+    font-size: 50px;
+    background: none;
+    color: #003441;
+    top: 60%;
+    right: 15%;
+    z-index: 1000;
+    text-transform: uppercase;
+}
+.youlogo img{
+    position: absolute;
+    display: flex;
+    background: none;
+    z-index: 1000;
+    width: 120px;
+    height: 110px;
+    top: 70%;
+    right: 18%;
+}
+.our{
+    background: white;
+    width: 100%;
+}
+.waves{
+    position: relative;
+    z-index: 500;
+    opacity: 0.3;
+}
+
+
+/*Achivement Styling Strats here*/
+
+.bg{
+    position: relative;
+    display: flex;
+    background: #E1F2F3;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+.achiv{
+    position: relative;
+    display: flex;
+    font-size: 70px;
+    z-index: 1000;
+    top: -45px;
+    left: 20%;
+    text-transform: uppercase;
+}
+.divide{
+    position: absolute;
+    display: inline-flex;
+    top: 150px;
+    left: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.divide p{
+    font-size: 23px;
+}
+.box10{
+    position: relative;
+    width: 35%;
+    height: 300px;
+    margin-left: -100px;
+}
+.numb{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.happy{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.box11{
+    position: relative;
+    width: 40.3%;
+    height: 300px;
+    margin-left: 110px;
+}
+.box12{
+    position: relative;
+    width: 40.3%;
+    height: 300px;
+    margin-left: 110px;
+}
+
+/*About Service styling strats here*/
+
+.service{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    background: white;
+    margin-top: -20px;
+}
+.service h2{
+    color: black;
+    top: 60px;
+    left: 25%;
+    text-transform: uppercase;
+}
+.flex{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+}
+.for{
+    padding-top: 50px;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.flex p{
+    font-size: 20px;
+}
+.box13{
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: -600px;
+    padding-top: 60px;
+}
+.box14{
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+.box15{
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding-top: 60px;
+}
+
+/*About help-sec styling strats here*/
+
+.help-sec{
+    background: #cdcdcd;
+    width: 100%;
+    height: 80vh;
+}
+.help{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 17%;
+}
+.help-sec ul{
+    padding-top: 80px;
+    padding-left: 16%;
+}
+.help-sec li{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.help-sec li span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/**************Responsive Website **********************
+******************Styling Strats here *****************/

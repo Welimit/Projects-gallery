@@ -1,0 +1,785 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.max-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 80px;
+}
+/* navbar styiling*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    background-color: #ececec;
+}
+.navbar .menu{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.navbar .menu li a{
+    font-size: 18x;
+    font-family: 'ubuntu', sans-serif;
+    color: #848484;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.navbar .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    color: 	#303030;
+    right: 250px;
+
+}
+.icons ul{
+    display: flex;
+    position: relative;
+    color: 	#808080;
+    font-size: 18px;
+    right: 20%;
+}
+.icons ul li {
+    display: inline-block;
+    font-family:  sans-serif;
+    padding: 20px;
+    margin-left: -10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icons ul li i:hover{
+    color: dodgerblue;
+}
+.navbar .menu li a:hover{
+    color: black;
+}
+.navbar .menubtn{
+    flex: 1;
+    padding: 25px 50px;
+    color: #484848;
+    cursor: pointer;
+    display: none;
+}
+/* Home styeling starts */
+
+.home{
+    display: flex;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+}
+.home .home-content .text-1{
+    text-align: center;
+    font-size: 40px;
+    color: 	#202020;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+.home .home-content .text-2{
+    font-size: 25px;
+    color: #707070;
+    font-style: system-ui;
+}
+.home .home-content a{
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin: 43px;
+    cursor: pointer;
+    background: dodgerblue;
+    border: 2px solid dodgerblue;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: dodgerblue;
+    background: none;
+    
+}
+
+/*  All Similar Styeling strarts here*/
+
+section{
+    padding: 100px 0;
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about{
+    font-family: 'Open Sans' , sans-serif;
+}
+section .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans' , sans-serif;
+}
+section .title::before{
+    content: "";
+    bottom: 0px;
+    left: 50%;
+    top: 25%;
+    position: absolute;
+    width: 75px;
+    height: 4px;
+    border-radius: 6px;
+    background: dodgerblue;
+    transform: translateX(-50%);
+}
+section .title::after{
+    bottom: -5px;
+    left: 50%;
+    font-size: 20px;
+    color: dodgerblue;
+    position: absolute;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+/* About Styeling strats here*/
+.about.about-content .left{
+    width: 30%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about .about-content .right {
+    width: 70%;    
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color: #484848;
+}
+.about .about-content .right p{
+    font-family:  sans-serif;
+    color: 	#686868;
+    font-size: 22px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.about .about-content .right .bars{
+    margin-bottom: 15px;
+}
+.about .about-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    text-align: justify;
+}
+.about .about-content .right .bars .info{
+    list-style: none;
+}
+.about .about-content .right .bars .info li{
+    color:#686868;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about .about-content .right .bars .info li span{
+    color: #484848;
+    font-weight: bold;
+}
+
+/* Skills styeling Starts here*/
+
+.skill .skill-content .column-up{
+    height: 30%;
+}
+.skill .skill-content .column-up{
+    height: 70%;
+}
+.skill .skill-content .column-up p{
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: #686868;
+    text-align: center;
+}
+.skill .skill-content .column-down .bars{
+    margin-bottom: 15px;
+}
+
+.skill .skill-content .column-down .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill .skill-content .column-down span{
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    color: #484848;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.skill .skill-content .column-down .line{
+    height: 10px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skill .skill-content .column-down .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:   #66ccff;
+}
+.skill-content .column-down .html::before{
+    width: 90%;
+}
+.skill-content .column-down .css::before{
+    width: 60%;
+}
+.skill-content .column-down .js::before{
+    width: 20%;
+}
+.skill-content .column-down .c::before{
+    width: 50%;
+}
+.skill-content .column-down .php::before{
+    width: 20%;
+}
+
+/*Facts styeling starts here*/
+
+.fact .fact-content .column-up p{
+    font-size: 22px;
+    font-family: 'ubntu', sans-serif;
+    color: #686868;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.fact .fact-content .column-down .list{
+    display: inline-block;
+    padding-left: 170px;
+    padding-bottom: 30px;
+}
+.fact .fact-content .column-down .list li span{
+    font-size: 45px;
+    padding-left: 20px;
+    color: #66ccff;
+}
+.fact .fact-content .column-down .list li{
+    list-style: none;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #484848;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Testimonials styeling strats here*/
+
+.teams .column-up p{
+    font-size: 20px;
+    text-align: center;
+    color: #686868;
+    padding: 50px;
+}
+
+.teams .carousel .card .box{
+    border-radius: 6px;
+    padding: 45px 75px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+    background: whitesmoke;
+}
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #66ccff;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card .box .text{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: #484848;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.teams .carousel .card .box p{
+    font-size: 20px;
+    text-align: center;
+    color: #686868;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid dodgerblue!important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot:hover{
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover{
+    background: dodgerblue!important;
+}
+
+/*Section styleing starts here*/
+.services{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'poppins' , sans-serif;
+}
+.service .column-up p{
+    font-size: 25px;
+    text-align: center;
+    color: #686868;
+    font-family: sans-serif;
+    padding: 50px;
+}
+.service .ser-content .column-down .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service .ser-content .column-down .container .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.service .ser-content .column-down .container .box::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,225,.2);
+    z-index: 2;
+    pointer-events: none;
+}
+.service .ser-content .column-down .container .box .content {
+    padding: 25px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.service .ser-content .column-down .container .box:hover .content{
+    color: white;
+}
+.service .ser-content .column-down .container .box .content h3{
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.service .ser-content .column-down .container .box .content p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.service .ser-content .column-down .container .box .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.service .ser-content .column-down .container .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+/* 2nd box*/
+
+.service .ser-content .column-down .container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service .ser-content .column-down .container-1 .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.service .ser-content .column-down .container-1 .box::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,225,.2);
+    z-index: 2;
+    pointer-events: none;
+}
+.service .ser-content .column-down .container-1 .box .content {
+    padding: 25px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.service .ser-content .column-down .container-1 .box:hover .content{
+    color: white;
+}
+.service .ser-content .column-down .container-1 .box .content h3{
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.service .ser-content .column-down .container-1 .box .content p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.service .ser-content .column-down .container-1 .box .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.service .ser-content .column-down .container-1 .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.service .ser-content .column-down .container .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #ca4535;
+    background: #ca4535;
+}
+.service .ser-content .column-down .container .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #ca4535;
+}
+.service .ser-content .column-down .container .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #488db7;
+    background: #488db7;
+}
+.service .ser-content .column-down .container .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px  #488db7;
+}
+.service .ser-content .column-down .container .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #4bb4a6;
+    background: #4bb4a6;
+}
+.service .ser-content .column-down .container .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #4bb4a6;
+}
+/* 2nd box */
+
+.service .ser-content .column-down .container-1 .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #946b81;
+    background: #946b81;
+}
+.service .ser-content .column-down .container-1 .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #946b81;
+}
+.service .ser-content .column-down .container-1 .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #a05f9f;
+    background: #a05f9f;
+}
+.service .ser-content .column-down .container-1 .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px  #a05f9f;
+}
+.service .ser-content .column-down .container-1 .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #6b947e;
+    background: #6b947e;
+}
+.service .ser-content .column-down .container-1 .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #6b947e;
+}
+
+/*Contact Styeling Starts here*/
+
+
+
+.contact .c-content .column{
+    width: calc(50%-30px);
+}
+.contact .max-width p{
+    font-size: 20px;
+    text-align: center;
+    color: #686868;
+    font-family: 'Open Sans ', sans-serif;
+}
+.contact .c-content .column-l .row{
+    display: flex;
+    margin: 50px;
+}
+.contact .c-content .column-l .row .icon{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.5s ;
+    margin-right: 3%;
+}
+.contact .c-content .column-l .row .icon:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.contact .c-content .column-l .row .info .head{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif ;
+    color: #484848;
+}
+.contact .c-content .column-l .row .info .sub-title{
+    font-size: 20px;
+    color: #686868;
+}
+.contact .max-width  .c-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    bottom: 340px;
+    right: 150px;
+}
+.contact .c-right form .name{
+    margin-bottom: 10px;
+}
+.contact .c-right form .mail{
+    margin-bottom: 10px;
+}
+.contact .c-right form .fields input,
+.contact .c-right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    outline: none;
+    padding: 0 15px;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+}
+.contact .c-right form .textarea textarea{
+    padding-top: 8%;
+    border-radius: 20px;
+    height: 180px;
+    color: #484848;
+    resize: none;
+}
+.contact .c-right form .textarea textarea:hover{
+    color: black;
+    background: #d8e3e6;
+}
+.contact .c-right form .name input{
+    border-radius: 10px;
+    height: 40px;
+    color: #484848;
+}
+.contact .c-right form .name input:hover{
+    color: black;
+    background: #d8e3e6;
+}
+.contact .c-right form .mail input{
+    border-radius: 10px;
+    height: 40px;
+    color: #484848;
+}
+.contact .c-right form .mail input:hover{
+    color: black;
+    background: #d8e3e6;
+}
+.contact .c-right form .button {
+    padding-top: 7%;
+}
+.contact .c-right form .button button{
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.contact .c-right form .button button:hover{
+    color: white;
+    background: dodgerblue;
+}
+
+/*Rsume styeling strats here*/
+
+.resume img{
+    width: 595px;
+    height: 842px;
+    object-fit: cover;
+    margin-left: 28%;
+}
+
+
+
+/* Footer section starts*/
+
+footer{
+    padding: 20px ;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin-left: 39%;
+}
+.text-3 span{
+    color: dodgerblue;
+}
+
+/*Responsive query Strats here*/
+
+@media(max-width: 947px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .navbar .menubtn {
+        display: block;
+        z-index: 999;
+        color: #484848;
+        font-size: 25px;
+        padding: 23px  580px;
+    }   
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: white;
+        padding-top: 100px;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .icons ul li i{
+        display: none;
+    }
+    .about.about-content .left{
+        width: 30%;
+    }
+    .about.about-content .right{
+        width: 70%;
+    }
+    .about .about-content .left img{
+        padding-left: 50px;
+    }
+    .resume img {
+        padding-right: 160px;
+    }
+    .service .column-up .column-down{
+        align-items: center;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clac Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">Easy Math</div>
+    <div class="active">
+    <table border="0">
+        <tr>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" value="C" id="box" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" id="box" onclick="display('1')"></td>
+            <td><input type="button" value="2" id="box" onclick="display('2')"></td>
+            <td><input type="button" value="3" id="box" onclick="display('3')"></td>
+            <td><input type="button" value="/" id="box" onclick="display('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="box" onclick="display('4')"></td>
+            <td><input type="button" value="5" id="box" onclick="display('5')"></td>
+            <td><input type="button" value="6" id="box" onclick="display('6')"></td>
+            <td><input type="button" value="-" id="box" onclick="display('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="box" onclick="display('7')"></td>
+            <td><input type="button" value="8" id="box" onclick="display('8')"></td>
+            <td><input type="button" value="9" id="box" onclick="display('9')"></td>
+            <td><input type="button" value="+" id="box" onclick="display('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." id="box" onclick="display('.')"></td>
+            <td><input type="button" value="0" id="box" onclick="display('0')"></td>
+            <td><input type="button" value="=" id="box" onclick="equate()"></td>
+            <td><input type="button" value="*" id="box" onclick="display('*')"></td>
+        </tr>
+    </table>
+    </div>
+    <script type="text/javascript">
+        function clr(){
+            document.getElementById("result").value = "";
+        }
+        function display(val){
+            document.getElementById("result").value += val; //value = val + val;
+        }
+        function equate(){
+            let x = document.getElementById("result").value;
+            let y = eval(x);
+            document.getElementById("result").value = y;
+        }
+    </script>
+</body>
+</html>

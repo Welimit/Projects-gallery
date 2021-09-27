@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fa/all.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+</head>
+<body>
+    
+    <section >
+        <div class="max-width">
+            <div id="toggle"></div>
+            <div id="slidebar">
+                <div class="mainorder">
+                    <div class="fst">
+                        <div class="brand">We</div>
+                        <ul class="tag">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="work.html">Work</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="sec">
+                        <div class="social">
+                            Social
+                        </div>
+                            <ul class="media">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagarm</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Dribble</a></li>
+                            </ul>
+                    </div>
+                    <div class="third">
+                        <div class="touch">Get in touch <br> </div>
+                            <ul class="contact">
+                                <li><a href="#">+91 0000000000</a></li>
+                                <li><a href="#">hello@we.com</a></li>
+                            </ul>
+                        <div class="dict">Directions</div>
+                        <p class="adres">Lorem ipsum dolor <br> 
+                            sit amet consectetur <br> 
+                            adipisicing elit. <br>
+                            Voluptate, quae?</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+<!--  Brand sectoin strats here-->
+        <div class="logo">
+            <img src="We.png" alt="">
+        </div>
+
+        <div class="odd">We</div>
+            <p id="qot">
+            We is  a UI/UX  Design and Branding<br>
+            Company in India.</p>
+        </div>
+            
+<!-- We intro video strats here-->
+
+<video>
+    <source src="we motion 3.avi" type="video/avi">
+</video>
+
+<!--mid section strats here-->  
+    <section class="mid" id="mid" >
+        <div class="wrapper">
+            <div class="static-txt"> We</div>
+            <ul class="dynamic-txt">
+                <li><span>Build</span></li>
+                <li><span>Create</span></li>
+                <li><span>Design</span></li>
+                <li><span>Develop</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Content section strats here-->
+
+    <div class="color">
+        <div class="left">
+            We Create an Everlasting Experience Of Digital Products, <br>
+            Web Design, and Brandings.
+        </div>
+        <ul class="menu">
+            <li class="h1 active"><span >Web Designing</span><i class="fas fa-chevron-down"></i></li>
+            <div class="p1">Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Neque eius amet odit in<br>
+                laudantium quos ullam molestias quasi possimus<br>
+                temporibus!</div>
+            <li id="h2"><span>Development</span><i class="fas fa-chevron-down"></i></li>
+            <div id="p2" >Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Neque eius amet odit in<br>
+                laudantium quos ullam molestias quasi possimus<br>
+                temporibus!</div>
+            <li id="h3"><span>Flim Making</span><i class="fas fa-chevron-down"></i></li>
+            <div id="p3">Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Neque eius amet odit in<br>
+                laudantium quos ullam molestias quasi possimus<br>
+                temporibus!</div>
+            <li id="h4"><span>User Experience</span><i class="fas fa-chevron-down"></i></li>
+            <div id="p4" >Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Neque eius amet odit in<br>
+                laudantium quos ullam molestias quasi possimus<br>
+                temporibus!</div>
+            <li id="h5"><span>Photography</span><i class="fas fa-chevron-down"></i></li>
+            <div id="p5" >Lorem ipsum dolor sit amet consectetur<br>
+                adipisicing elit. Neque eius amet odit in<br>
+                laudantium quos ullam molestias quasi possimus<br>
+                temporibus!</div>
+        </ul>
+    </div>
+
+    
+    <script>
+            
+        const closedHead = document.querySelector('.h1')
+        const openPara = document.querySelector('.p1')
+            
+        //Add Event Listener
+            
+        closedHead.addEventListener('click', () => {
+            if(openPara.classList.contains('p1')) {
+                openPara.classList.add('active');
+                closedHead.classList.remove('active');
+            }
+        });
+        openPara.addEventListener('click', () => {
+            if(closedHead.classList.contains('h1')) {
+                closedHead.classList.add('active');
+                openPara.classList.remove('active');
+            }
+        });
+    </script>
+
+    <!--Image section strats here-->
+
+    <div class="container">    
+        <div class="row">
+            <div class="column">
+                <div class="img1"> <img src="UI.jpg" alt="#" ></div>
+            </div>
+            <div class="column">
+                <div class="img2"><img src="code.jpg" alt="#" ></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="img3"><img src="colab.jpg" alt="#" ></div>
+            </div>
+            <div class="column">
+                <div class="img4"><img src="Pc.jpg" alt="#" ></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="img5"> <img src="film.jpg" alt="#"></div>
+            </div>
+            <div class="column">
+                <div class="img6"><img src="book.jpg" alt="#"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--  What We do Section strats here-->
+
+    <section class="what">
+        <div class="first">What we do</div>
+        <div class="topic1">
+            <div class="heading1">Website Design & Development</div>
+        </div>
+            <div class="text1">We create websites. The more radical the brief, the better for us.<br> 
+                Sites that are disruptive  and unique are among our favourites,<br> but  we also enjoy
+                a slick, high-tech  solution. Each client is<br> distinct, and each  solution is as well. </div>
+        </div>
+        <div class="topic2">
+            <div class="heading2">Online Stores & ecommerce website </div>
+            <div class="text2">We create websites. The more radical the brief, the better for us.<br> 
+                Sites that are disruptive  and unique are among our favourites,<br> but  we also enjoy
+                a slick, high-tech  solution. Each client is<br> distinct, and each  solution is as well. </div>
+        </div>
+        <div class="topic3">
+            <div class="heading3">Content Creation & Direction</div>
+            <div class="text3">We create websites. The more radical the brief, the better for us.<br> 
+                Sites that are disruptive  and unique are among our favourites,<br> but  we also enjoy
+                a slick, high-tech  solution. Each client is<br> distinct, and each  solution is as well. </div>
+        </div>
+        <div class="abtwe">
+            <a href="work.html"><i class="fas fa-caret-left"><i class="fas fa-long-arrow-alt-left"></i></i> Work </a>
+            <a href="about.html">About  <i class="fas fa-long-arrow-alt-right"><i class="fas fa-caret-right"></i></i></a>
+        </div>
+    </section>
+
+<script>
+    
+    const toggle = document.getElementById('toggle');
+    const slidebar = document.getElementById('slidebar');
+    const para = document.getElementById('para');
+    
+    toggle.onclick = function(){
+        toggle.classList.toggle('active');
+        slidebar.classList.toggle('active')
+    }
+    
+    togle.onclick = function(){
+        para.classList.toggle('active')
+    }
+</script>
+
+
+    <!-- Footer section Strats -->
+
+    <footer>
+        <span>created by<a href="#"> We </a> | <span class="far fa-copyright"></span>2020 All rights reserved</span>
+        <div class="insta"><a href=""><i class="fab fa-instagram"></i></a><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-twitter"></i></a><a href=""><i class="fab fa-dribbble"></i></a></div>
+    </footer>
+</body>       
+</html> 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2d Pc build</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fa/all.css">
+</head>
+<body>
+<!-- Go to top Section starts here-->
+
+<a href="#" class="gotop"><i class="fas fa-arrow-up"></i></a>
+
+<!--Nav Section strats here-->
+    <div class="nav">
+        <div class="about1"><a href="about.html">About</a></div>
+        <div class="con"><a href="#ref">Contact</a></div>
+    </div>
+
+
+    <div class="container">
+        <h1 class="text1">A2D </h1>
+        <h2 class="tetx2">Soldier PC Build</h2>
+        <img src="img/solider.png" class="logo">
+    </div>
+
+<!--pc build section section strats here-->
+
+    <div class="pc-section">
+        <div class="box1">
+            <div class="text9">PC Build</div>
+            <div class="font1">Customize your own pc</div>
+            <button id="btn0"><a href="pccomp.html">Build Now</a></button>
+            <img src="img/pc build 1@2x.png" class="pclogo">
+        </div>
+    </div>
+
+<!-- minning Rig section strats here-->
+
+    <div class="rig-section">
+        <div class="box2">
+            <div class="rig">Minning rig</div>
+            <div class="font2">Customize your Minning rig</div>
+            <button id="btn"><a href="pccomp.html#rigref">Build Now</a></button>
+            <img src="img/rigg.png" class="riglogo">
+        </div>
+    </div>
+
+<!--PC doc section strats here-->
+
+    <div class="column">
+        <div class="box3">
+            <div class="font3">PC-Doc Service</div>
+            <button id="btn1"><a href="#">Enroll Now</a></button>
+            <img src="img/pcdoc@2x.png" class="doclogo">
+        </div>
+        <div class="box4">
+            <div class="font4" id="ref">Contact</div>
+            <div class="vertical">
+                <div class="mail"><a href="#"><i class="fas fa-mail-bulk"></i><span>Email:</span>  ratrgemail.com</a></div> 
+                <div class="number"><a href="#"><i class="fas fa-phone-alt"></i><span>Phone:</span>  1234567890</a></div> 
+                <div class="youtube"><a href="#"><i class="fab fa-youtube"></i><span>Youtube:</span>  www.yotube.com</a></div>
+            </div>
+            <button id="btn2"><a href="#">Touch me</a></button>
+        </div>
+    </div>
+
+<!--Footer Section Starts -->
+
+
+<!--java Scripts-->
+
+    <script src="anime.min.js"></script>
+    <script>
+        const container = document.querySelector('.container')
+        for (var i = 0; i <= 100; i++){
+            const blocks = document.createElement('div');
+            blocks.classList.add('block');
+            container.appendChild(blocks);
+        }
+
+        function animateblocks(){
+            anime({
+                targets: '.block',
+                translateX: function(){
+                    return anime.random(-800,800)
+                },
+                translateY: function(){
+                    return anime.random(-700,700)
+                },
+                scale: function(){
+                    return anime.random(1,5)
+                },
+                easing: 'linear',
+                duration: 3000,
+                delay: anime.stagger(20),
+                complete: animateblocks,
+            })
+        }
+        animateblocks()
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+
+<script type="text/javascript">
+    gsap.timeline({
+        scrollTriger: {
+            trigger: ".container",
+            start: "center center",
+            end: "bottom top",
+            markers: true,
+            scrub: true,
+
+        }
+    })
+    .from(".text1", { x : innerwidth * 1 })
+    .from(".text2", { x : innerwidth * 1 })
+    .from(".logo", {
+        x : innerwidth * 1  
+    })
+
+</script>
+</body>
+</html>

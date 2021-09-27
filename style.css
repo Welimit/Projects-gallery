@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    filter: blur(8px);
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.lap{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 22%;
+    top: 1%;
+    z-index: 1;
+}
+.notch a{
+    position: fixed;
+    text-decoration: none;
+    color: 	#231F20;
+    font-size: 20px;
+}
+.notch i{
+    padding-right: 10px;
+}
+.notch a:hover{
+    color: #ea4c89;
+}
+.menu{
+    position: fixed;
+    top: 20%;
+    left: 4%;
+}
+.about{
+    position: fixed;
+    top: 40%;
+    left: 4%;
+}
+.project{
+    position: fixed;
+    top: 60%;
+    left: 4%;
+}
+.social{
+    position: fixed;
+    left: 95%;
+    top: 60%;
+    text-align: justify;
+}
+.social li{
+    list-style: none;
+    padding-bottom: 50px;
+}
+.social a{
+    font-size: 25px;
+}
+.font1{
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    left: 35%;
+    top: 34%;
+    font-weight: bold;
+    z-index: 999;
+}
+#mouse{
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    z-index: 1000;
+    top: 86%;
+    left: 52.3%;
+}
+#mouse:hover{
+    transform: translateY(-10px);
+}
+.font2:hover{
+    transform: translateY(-10px);
+}
+.font2{
+    position: absolute;
+    color: white;
+    z-index: 1000;
+    font-size: 20px;
+    top: 93%;
+    left: 51%;
+    text-transform: uppercase;
+}
+.font2 a{
+    text-decoration: none;
+    color: white;
+}
+.font4{
+    position: absolute;
+    z-index: 1000;
+    font-size: 30px;
+    color: white;
+    right: 50px;
+    top: 30px;
+    text-transform: uppercase;
+}
+
+/* About styling Strats here*/
+
+#two{
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+.img-box{
+    position: relative;
+    width: 250px;
+    height: 280px;
+    border-radius: 50%;
+    background: #a3edf0;
+    top: 20%;
+    left: 40%;
+    opacity: 0.9;
+}
+.img-box:hover{
+    opacity: 1;
+}
+.dr{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 40%;
+    top: -10%;
+}
+.dr:hover{
+    transform: translateY(-10px);
+    transition-delay: 5ms;
+}
+.font3{
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    color: 	#231F20;
+    left: 39.5%;
+    top: 35%;  
+}
+.font6{
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    color: 	#231F20;
+    left: 45%;
+    top: 5%;  
+}
+
+.font5{
+    position: relative;
+    font-size: 30px;
+    left: 90%;
+    top: -30%;
+    text-transform: uppercase;
+    color: 	#231F20;
+}
+.font7{
+    position: relative;
+    font-size: 50px;
+    letter-spacing: 2px;
+    top: 200px;
+    color: 	#231F20;
+    left: 20%;
+    text-transform: uppercase;
+}
+.about-me p{
+    position: relative;
+    font-size: 30px;
+    top: 270px;
+    letter-spacing: 1px;
+    left: 20%;
+}
+.font8{
+    position: relative;
+    font-size: 50px;
+    letter-spacing: 2px;
+    top: 370px;
+    color: 	#231F20;
+    left: 20%;
+    text-transform: uppercase;
+}
+.font20{
+    position: relative;
+    font-size: 50px;
+    letter-spacing: 2px;
+    top: 430px;
+    color: 	#231F20;
+    left: 20%;
+    text-transform: uppercase;
+}
+.skills{
+    background: white;
+}
+.card{
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 500px;
+    margin-left: 350px;
+}
+.box1{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+#html{
+    width: 150px;
+    height: 100px;
+}
+#head1{
+    padding-top: 50px;
+    font-size: 25px;
+}
+.box1 p{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.box2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    left: 10%;
+    text-align: center;
+}
+#js{
+    width: 110px;
+    height: 110px;
+}
+#head2{
+    padding-top: 50px;
+    font-size: 25px;
+}
+.box2 p{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.card2{
+    position: absolute;
+    width: 100%;
+    display: inline-flex;
+    margin-left: 350px;
+}
+#ps{
+    width: 200px;
+    height: 140px;
+}
+.box2a{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    top: 20px;
+    left: 10%;
+    text-align: center;
+}
+.box2a p{
+    font-size: 20px;
+    padding-top: 40px;
+}
+#ae{
+    width: 110px;
+    height: 110px;
+}
+#pro-btn{
+    position: relative;
+    top: 100px;
+    height: 30vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 580px;
+}
+#pro-btn a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#pro-btn h4{
+    width: 250px;
+    height: 60px;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: dodgerblue;
+    background: transparent;
+    border: 2px solid dodgerblue;
+
+}
+#pro-btn h4:hover{
+    background: dodgerblue;
+    color: white;
+}
+.font9{
+    position: relative;
+    top: 20px;
+    left: 43.5%;
+    font-size: 20px;
+}
+
+/* PRojects Styling strats here*/
+.head5{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: 	#231F20;
+}
+.font10{
+    font-size: 50px;
+    left: 20%;
+    position: relative;
+    top: 200px;
+    color: 	#231F20;
+    text-transform: uppercase;
+}
+.font11{
+    font-size: 25px;
+    left: 20.5%;
+    position: relative;
+    top: 240px;
+    color: 	#231F20;
+    text-transform: uppercase;
+}
+.font11 span{
+    color: red;
+}
+.options{
+    position: relative;
+    display: inline-flex;
+    top: 350px;
+    left: 400px;
+}
+.opt1 a{
+    position: relative;
+    left: 1px;
+    font-size: 30px;
+    color: 	#231F20;
+    text-decoration: none;
+}
+.opt2 a{
+    position: relative;
+    left: 220px;
+    font-size: 30px;
+    color: 	#231F20;
+    text-decoration: none;
+}
+.opt3 a{
+    position: relative;
+    left: 400px;
+    font-size: 30px;
+    color: 	#231F20;
+    text-decoration: none;
+}
+.projets{
+    width: 100%;
+    margin-top: 400px;
+    margin-left: 280px;
+}
+.head6{
+    font-size: 40px;
+    color: #ea4c89;
+    text-transform: uppercase;
+}
+.topic1{
+    position: relative;
+    display: inline-flex;
+    margin-top: 100px;
+}
+.text1 p{
+    font-size: 20px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    color: 	#231F20;
+    font-family: 'Open Sans', sans-serif;
+}
+.ac{
+    font-size: 30px;
+}
+.picture1 img{
+    width: 250px;
+    height: 300px;
+}
+.topic2{
+    position: relative;
+    display: inline-flex;
+    margin-top: 100px;
+}
+.picture2 img{
+    width: 250px;
+    height: 300px;
+}
+.We{
+    font-size: 30px;
+}
+.text2 p{
+    font-size: 20px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    color: 	#231F20;
+    font-family: 'Open Sans', sans-serif;
+}
+.text2{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.topic3{
+    display: inline-flex;
+    margin-top: 100px;
+}
+.text3{
+    padding-top: 50px;
+}
+.text3 p{
+    font-size: 20px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    color: 	#231F20;
+    font-family: 'Open Sans', sans-serif;
+}
+.a2d{
+    font-size: 30px;
+}
+.picture3 img{
+    width: 250px;
+    height: 300px;
+}
+.topic4{
+    position: relative;
+    display: inline-flex;
+    margin-top: 100px;
+}
+.picture4 img{
+    width: 250px;
+    height: 300px;
+}
+.vison{
+    font-size: 30px;
+}
+.text4 p{
+    font-size: 20px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    color: 	#231F20;
+    font-family: 'Open Sans', sans-serif;
+}
+.text4{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.topic5{
+    display: inline-flex;
+    margin-top: 100px;
+}
+.text5{
+    padding-top: 50px;
+}
+.text5 p{
+    font-size: 20px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    color: 	#231F20;
+    font-family: 'Open Sans', sans-serif;
+}
+.infinity{
+    font-size: 30px;
+}
+.picture5 img{
+    width: 250px;
+    height: 300px;
+}
+.head7{
+    font-size: 40px;
+    color: #ea4c89;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.head8{
+    font-size: 40px;
+    color: #ea4c89;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.head9{
+    font-size: 40px;
+    color: #ea4c89;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
